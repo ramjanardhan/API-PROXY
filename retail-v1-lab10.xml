@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="retail-v1-lab10">
+    <Basepaths>/retail-v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1618379693012</CreatedAt>
+    <CreatedBy>lakshmichaganti269@gmail.com</CreatedBy>
+    <Description>My retail API</Description>
+    <DisplayName>retail-v1</DisplayName>
+    <LastModifiedAt>1618379693012</LastModifiedAt>
+    <LastModifiedBy>lakshmichaganti269@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:2e44a12237369288ae67c1f717dd6d51c38defb395744d7d1017f29f8a8e6c175017d3b803442a4ab1d00aee032fafa240485b4417fb77322e3aa96ac72d4e0c:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>AM-400JSONThreat</Policy>
+        <Policy>AM-RemoveAuth</Policy>
+        <Policy>BA-AddAuthHeader</Policy>
+        <Policy>EV-DebugBasicAuth</Policy>
+        <Policy>EV-ExtractAddress</Policy>
+        <Policy>EV-ExtractLatLng</Policy>
+        <Policy>FC-BackendCredentials</Policy>
+        <Policy>J2X-Convert</Policy>
+        <Policy>JS-AddAddress</Policy>
+        <Policy>JTP-Protect</Policy>
+        <Policy>KVM-GetCredentials</Policy>
+        <Policy>O2-VerifyToken</Policy>
+        <Policy>Q-EnforceQuota</Policy>
+        <Policy>RF-404NotFound</Policy>
+        <Policy>RF-InvalidContentType</Policy>
+        <Policy>SA-SpikeArrest</Policy>
+        <Policy>SC-GoogleGeocode</Policy>
+        <Policy>VAK-VerifyKey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+        <Resource>jsc://addAddress.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

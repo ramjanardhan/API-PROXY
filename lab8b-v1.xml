@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="lab8b-v1">
+    <Basepaths>/lab8b-v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1617961517997</CreatedAt>
+    <CreatedBy>lakshmichaganti269@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>lab8b-v1</DisplayName>
+    <LastModifiedAt>1617962799893</LastModifiedAt>
+    <LastModifiedBy>lakshmichaganti269@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:87666409347161649344845c11d065e0d0554714e4fa1c1382ed5048d22bf3e38d5fc682039b3cd3536a432e78f928b245468bed7f7c2205f980119b2d2fd655:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>AM-BuildResponse</Policy>
+        <Policy>JS-ProcessResponses</Policy>
+        <Policy>JS-SendRequests</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://processResponses.js</Resource>
+        <Resource>jsc://sendRequests.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
